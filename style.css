@@ -1,0 +1,116 @@
+/* Styles généraux */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+/* Vérification pour le fond */
+.hero {
+    height: 100vh;
+    background-image: url('images/background.jpg'); /* Vérifie le chemin */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Barre de navigation */
+nav {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fcfcfc;
+}
+
+/* Bloc semi-transparent */
+.overlay {
+    background: rgba(61, 57, 57, 0.363);
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+/* Titre */
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.highlight {
+    color: #f1ece9;
+}
+
+/* Icônes des réseaux sociaux */
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: white;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff6600;
+}
+
+/* Bloc semi-transparent avec flou et bordure blanche */
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 600px;
+    backdrop-filter: blur(10px); /* Effet flou */
+    -webkit-backdrop-filter: blur(10px); /* Support pour certains navigateurs */
+    border: 2px solid white; /* Bordure blanche */
+}
+
+/* Bouton Contact avec bordure blanche et effet flou */
+.buttons .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    border: 2px solid white; /* Bordure blanche */
+    backdrop-filter: blur(5px); /* Effet flou */
+    -webkit-backdrop-filter: blur(5px); /* Support pour certains navigateurs */
+}
+
+.buttons .btn:hover {
+    background: #b3b0af;
+    border-color: #dfd9d6; /* Bordure devient orange au survol */
+}
