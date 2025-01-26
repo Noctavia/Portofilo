@@ -10,7 +10,7 @@ body {
 /* Vérification pour le fond */
 .hero {
     height: 100vh;
-    background-image: url('images/background.jpg'); /* Vérifie le chemin */
+    background-image: url('background.jpg'); /* Vérifie le chemin */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
